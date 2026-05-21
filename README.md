@@ -1,8 +1,9 @@
 # Cuadernillo de Prácticas - JavaScript Avanzado e Ionic
 **Estudiante:** JuanMa
-**Proyecto:** El Mercado de la Memoria (Backend / Frontend)
+**Proyecto:** JavaScript Avanzado e IONIC (Backend / Frontend)
 
 ---
+#### EJERCCIOS:
 
 ## 📋 PRÁCTICA A: Docker (Levantar servicios conocidos)
 
