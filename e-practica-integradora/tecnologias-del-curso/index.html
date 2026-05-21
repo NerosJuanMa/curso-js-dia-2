@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica D - JS ES Modules</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <h1>Generador de Frases Célebres</h1>
+    <p>Práctica de JavaScript Avanzado usando ES Modules</p>
+  </header>
+
+  <main>
+    <section class="contenedor-frase">
+      <article class="tarjeta-frase">
+        <!-- Único elemento de texto que leerá tu document.querySelector("#frase") -->
+        <p id="frase">Cargando frase...</p>
+      </article>
+
+      <!-- Único botón que leerá tu document.querySelector("#boton-frase") -->
+      <button id="boton-frase">Generar nueva frase</button>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>Práctica D - Módulos de JavaScript nativos en el navegador</p>
+  </footer>
+
+  <!-- El atributo type="module" permite usar import/export en app.js -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
