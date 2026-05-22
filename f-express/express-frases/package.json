@@ -1,0 +1,17 @@
+{
+  "name": "express-frases",
+  "version": "1.0.0",
+  "description": "*   **Apache (HTTP Server):** Es un servidor de contenido estático o pre-renderizado (HTML, CSS, imágenes). Lee archivos directamente de una carpeta del disco duro y los envía al navegador sin procesar lógica compleja de backend.\r *   **Express (Node.js):** Es un framework de backend dinámico. No solo sirve archivos; es una aplicación que ejecuta código JavaScript en el servidor para resolver rutas HTTP personalizadas, realizar consultas complejas a bases de datos (como MySQL), gestionar autenticación de usuarios y devolver respuestas dinámicas o APIs en formato JSON.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

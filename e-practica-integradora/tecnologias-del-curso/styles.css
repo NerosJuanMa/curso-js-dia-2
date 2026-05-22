@@ -1,0 +1,24 @@
+ /* Estilos básicos para ver las tarjetas en cuadrícula */
+        #contenedor-tecnologias {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+        .tarjeta {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 16px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .tarjeta h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .tipo {
+            font-weight: bold;
+            color: #0076ff;
+            font-size: 0.9em;
+        }
